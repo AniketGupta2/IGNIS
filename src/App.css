@@ -1,0 +1,56 @@
+
+.like{
+  display: flex;
+  margin-top: 20px;
+  margin-left: 500px;
+}
+#button{
+  border: 0;
+  background-color: transparent;
+}
+#button2{
+  border: 0;
+  background-color: transparent;
+  display: none;
+}
+#button3{
+  border: 0;
+  background-color: transparent;
+}
+#button4{
+  border: 0;
+  background-color: transparent;
+  display: none;
+}
+.row1{
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: calc(var(--bs-gutter-y) * -1);
+  margin-left: calc(var(--bs-gutter-x) * -.5);
+}
+.card1{
+  margin-left: 9vw;
+  margin-top: 10vh;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0,0,0,.125);
+  border-radius: .25rem;
+}
+.my1-4 {
+  margin-top: 1.5rem!important;
+  margin-bottom: 0rem!important;
+}
+.black{
+  background: black;
+}
+.py1-3 {
+    padding-top: 1rem !important;
+    padding-bottom: 3rem !important;
+}
